@@ -1,0 +1,91 @@
+.top1 .content button{
+  padding: 18px 30px;
+  font-size: 12px;
+}
+.menu-right.active li {
+  height: 70px;
+  line-height: 70px;
+}
+.journex{
+  margin: 0 40px;
+}
+.journex .above h1 {
+  font-size: 7em;
+}
+.demos .box{
+  grid-column: span 12;
+}
+.whychoose {
+  height: 681px;
+}
+.whychoose .sub-title {
+  font-size: 12px;
+}
+.fact{
+  height: 500px;
+}
+.fact .overlay{
+  height: 400px;
+}
+.overlay2 h1 {
+  padding-top: 70px;
+}
+.count{
+  padding-top:0;
+  font-size: 13px;
+}
+.count i {
+  font-size: 28px;
+}
+.count p {
+  font-size: 16px;
+}
+.threestep{
+  padding: 150px 0;
+}
+.threestep h1 {
+  font-size: 150%;
+}
+.threestep h3{
+  font-size: 14px;
+}
+.step{
+  grid-column: span 12;
+  margin-bottom: 25px;
+}
+.threestep .needgrid{
+  margin-top: 50px;
+  padding: 0 30px;
+}
+.fact.two .overlay2 h1 {
+  padding-top: 120px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.fact.two .overlay2 h3 {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.fact.two button{
+  padding: 18px 30px;
+}
+.footer{
+  
+  padding: 150px 0;
+}
+.footer img{
+  height: 100px;
+  width: 100px;;
+}
+.footer h1{
+  font-size: 20px;
+}
+.footer button{
+  padding: 18px 30px;
+}
+.footer p{
+  font-size: 13px;
+}
+.top1 .logo img {
+    margin-left: 16px;
+}

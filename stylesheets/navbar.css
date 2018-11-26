@@ -1,0 +1,40 @@
+ 
+       
+  .navbar{
+    padding: 0px;
+  }
+  .toggle{
+    display: block;
+    right: 25px;
+  }
+   
+  .menu-right {
+    display: block;
+    grid-column: 1/-1;
+    letter-spacing: 1.15px;
+    width: 80%;
+    right: 10%;
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    z-index: 99;
+    text-align: center;
+    transform-origin: 50% 0%;
+    transition: 200ms; 
+    transform: scaleY(0); 
+}
+  .menu-right li a{
+    color: black;
+  }
+
+  .menu-right li:hover{
+    background: #00000026;
+  }
+  .menu-right.active{
+    display: block;
+    transform: scaleY(1);
+    width: 80%;
+    right: 10%;
+    box-shadow: 0 0 5px grey;
+  }
+  

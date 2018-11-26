@@ -1,0 +1,510 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+.footer span {
+    color: black;
+}
+
+.footer p {
+    color: gray;
+}
+
+.footer button {
+    /* padding: 20px 20px; */
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+    padding: 18px 75px;
+    background: #000000eb;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+ 
+
+.footer input[type="text"] {
+    margin: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 200px;
+}
+
+.footer img {
+    margin-bottom: 50px;
+}
+
+.threestep h3 {
+    color: gray;
+    font-weight: 300;
+}
+ 
+
+.threestep .needgrid h3 {
+    color: #000000c9;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.threestep h1 {
+    font-size: 200%;
+    color: #000000cf;
+}
+
+.two {
+    display: flex;
+    align-items: center;
+}
+
+.threestep span {
+    font-size: 700%;
+    color: gray;
+    font-weight: bold;
+}
+
+.step {
+    grid-column: span 4;
+    display: flex;
+    height: 150px;
+    padding: 0 10px;
+}
+
+.count p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #c9c7c7;
+    padding: 10px;
+}
+
+.count i {
+    font-size: 45px;
+}
+
+.count .component {
+    grid-column: span 3;
+}
+
+.count {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* position: absolute; */
+    padding-top: 120px;
+    text-align: center;
+}
+
+.count h2 {
+    padding: 10px;
+    font-weight: 400;
+}
+
+.overlay2 h3 {
+    text-align: center;
+    color: #ffffffab;
+    margin-bottom: 56px;
+}
+
+.overlay2 h1 {
+    text-align: center;
+    padding-top: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ 
+
+.needgrid .left {
+    grid-column: 1/7;
+}
+
+.needgrid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* padding: 0 30px; */
+    margin-top: 100px;
+}
+
+.threestep .needgrid {
+    padding: 0 100px;
+}
+
+.needgrid .right {
+    grid-column: 7/-1;
+    padding: 100px 30px;
+}
+
+.title em {
+    color: #808080de;
+}
+
+.title h3 {
+    font-size: 150%;
+}
+
+.title {
+    text-align: center;
+}
+
+.title {
+    /* padding-bottom: 80px; */
+}
+
+.box a.liveBtn {
+    position: absolute;
+    /* color: black; */
+    text-decoration: none;
+    /* top: 20px; */
+    padding: 20px;
+    left: 50%;
+    top: 42%;
+    transform: translate(-50%, -50%);
+    background: #000000f7;
+    color: #ffffffb8;
+}
+
+.demos p {
+    color: #808080e8;
+    margin-bottom: 50px;
+}
+
+.box p {
+    margin: 0;
+    color: #000000cc;
+    padding: 15px 0;
+    font-size: 12px;
+}
+
+.demos h1 {
+    font-size: 300%;
+}
+  
+  .navbar.active {background: white;/* width: 100%; */color: black!important;height: 80px;line-height: 80px;transition: 400ms;box-shadow: 0 0 5px grey;}
+  
+  .navbar.active .menu-right li a {
+      color: black;
+  }
+  
+  .toggle {
+      position: absolute;
+      right: 1px;
+      top: -10px;
+      font-size: 24px;
+      cursor: pointer;
+  }
+  
+  .line {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .journex .above h1 {
+      font-size: 10em;
+  }
+  
+  .above h3 {
+      padding: 50px;
+      color: black !important;
+      font-weight: bold;
+      font-size: 22px;
+  }
+  
+  .journex p {
+      padding: 4px;
+      /* text-align: center; */
+      letter-spacing: 1px;
+      color: grey;
+  }
+  
+  .journex h3 {
+      color: #c5c3c3;
+      font-weight: 300;
+      padding-bottom: 50px;
+  }
+  
+  .journex {
+      margin: 0 80px;
+      padding-top: 160px;
+      text-align: center;
+  }
+  
+  .journex h1 {
+      /* padding-bottom: 50px; */
+      font-size: 300%;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: -3px;
+  }
+  
+   
+  .top1 .content button{
+    text-decoration: none;
+    color: black;
+    padding: 18px 75px;
+    background: #d50808;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: 400ms;
+  }
+  .top1 .content button:before{
+      content: 'LIVE DEMOS';
+      color: black;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform: translateX(-300px);
+      transition: 400ms;
+      background: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: 2px;
+      
+  }
+  .top1 .content button:hover:before{
+      
+      transition: 400ms;
+      transform: translateX(0px);
+  }
+  
+  .top1 .content h1 {
+      font-size: 10em;
+      letter-spacing: -7.5px;
+      margin-bottom: 25px;
+  }
+  
+  .content h4 {
+      letter-spacing: 2px;
+      font-weight: 300;
+  }
+  
+  .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+  }
+  
+  .background {
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: linear-gradient(0deg, rgba(5,5,5,0) 38%, rgba(5,5,5,0.87718837535014) 97%);
+      /* background: linear-gradient(0deg, rgba(5,5,5,0) 25%, rgba(5,5,5,1) 100%, rgba(3,3,3,1) 100%, rgba(5,5,5,1) 100%); */
+  }
+  
+  .navbar {
+      padding: 0 80px;
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      height: 100px;
+      line-height: 100px;
+      position: relative;
+      position: fixed;
+      top: 0;
+      z-index: 200;
+      width: 100%;
+      transition: 400ms ease-out;
+  }
+  
+  .menu-right {
+      list-style: none;
+  }
+  
+  .menu-right {
+      grid-column: 6/-1;
+      display: flex;
+      letter-spacing: 1.15px;
+  }
+  
+  .menu-right li a {
+      color: white;
+      text-decoration: none;
+      padding: 20px 20px;
+      font-size: 12px;
+      font-weight: 300;
+      position: relative;
+  }
+  
+  .menu-right li a:hover:before {
+      transform: scaleX(1);
+      opacity: 1;
+  }
+  
+  .menu-right li a:before {
+      content: '';
+      top: 0;
+      left: 0;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-bottom: 1px solid white;
+      opacity: 0;
+      transform: scaleX(0);
+      transition: 400ms;
+  }
+  body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .top1{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background: url('../images/SINGLE-bg.jpg') no-repeat 50% 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  .toggle{
+    display: none;
+  }
+  .navbar.active .menu-right li a:before {
+    border-color: black;
+    }
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-gap: 10px; */
+    grid-row-gap: 35px;
+}
+.box{
+    text-align: center;
+    margin: 0 15px;
+    grid-column: span 4;
+    border: 1px solid #8080805c;
+    position: relative;
+    transition: 200ms ease-in;
+    cursor: pointer;
+}
+.demos{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.box img{
+    height: 210px;
+    width: 98%;
+    padding: 4px;
+    transition: 200ms ease-in;
+}
+.liveBtn{
+    display: none;
+    transition: 1s ease-in;
+}
+.overlay {
+    background: white;
+    opacity: 1;
+}
+.box:hover .overlay{
+    opacity: 0.5;
+    transition: 200ms ease-in;
+}
+.box:hover .liveBtn{ 
+    display: block;
+   
+}
+ 
+.whychoose {
+    height: 705px;
+    padding-top: 100px;
+}
+
+.whychoose .right .line{
+    border: 1px solid black;
+    width: 100%;
+    animation: line 3s; 
+}
+span.counter {
+    float: right;
+}
+span.percent {
+    float: right;
+}
+.whychoose .left{
+    background: url('../images/SINGLE-bg.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    background-position: center;
+}
+@keyframes line{
+    0%{width: 0%}
+    100%{width: 100%}
+}
+.whychoose .right div {
+    margin: 20px 0;
+}
+.fact{
+    height: 900px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.fact .overlay{
+    height: 700px;
+    width: 80%; 
+    background: url('../images/parallax-going-live.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 30;
+    position: relative;
+}
+.red{
+    color: red;
+}
+.fact.two button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+    padding: 18px 75px;
+    background: #d50808;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 14px;
+    overflow: hidden;
+    outline: none;
+    cursor: pointer;
+    transition: 400ms;
+}
+.fact.two .overlay{
+    background: url('../images/parallax-contact.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.fact .overlay2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(5,5,5,0) 0%, rgba(5,5,5,0.577468487394958) 0%);   
+}
+.threestep{
+    
+padding: 200px 0;
+    
+text-align: center;
+}
+
+.footer{
+    padding: 250px 0;
+    text-align: center;
+}
